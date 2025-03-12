@@ -1,5 +1,5 @@
 module InertiaRails
-  class StaticController < ::ApplicationController
+  class StaticController < ApplicationController
     def static
       render inertia: params[:component]
     end
